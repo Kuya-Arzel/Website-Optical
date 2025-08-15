@@ -1,9 +1,6 @@
 import React from 'react';
-import { Button } from "./components/ui/button";
-import { Card, CardContent } from "./components/ui/card";
-import { MapPin, Phone, Mail } from "lucide-react";
 import HomePage from './pages/homePage';
-import MainLayout from './Layout/mainLayout';
+import MainLayout from './Layout/MainLayout';
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom';
 import NotFoundPage from './pages/NotFoundPage';
 
