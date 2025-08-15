@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Outlet, useLocation } from "react-router-dom";
-import Footer from "../pages/Footer";
+import Footer from "../pages/footer";
 import Navigator from "../pages/navigator";
 
 const MainLayout = () => {
@@ -26,3 +26,4 @@ const MainLayout = () => {
 };
 
 export default MainLayout;
+
