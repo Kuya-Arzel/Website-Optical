@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Sarah Lim",
+      "feedback": "The staff was incredibly friendly and professional. My eye exam was quick and thorough!",
+      "image": "/images/testimonial/testimonial1.jpg"
+    },
+    {
+      "name": "Michael Cruz",
+      "feedback": "I got my new glasses here and they are perfect. Highly recommend VisionCare!",
+      "image": "/images/testimonial/testimonial2.jpg"
+    },
+    {
+      "name": "Anna Reyes",
+      "feedback": "Excellent service and modern facilities. I feel confident in their care.",
+      "image": "/images/testimonial/testimonial3.jpg"
+    }
+  ]

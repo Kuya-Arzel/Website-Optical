@@ -1,0 +1,93 @@
+[
+  {
+    "code": "ehsc-123-C1",
+    "name": "EG Sample 1",
+    "price": "PHP5,990.00",
+    "image": "images/bestseller/product1.jpg",
+    "category": "MEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": false
+  },
+  {
+    "code": "ehsc-123-C2",
+    "name": "EG Sample 2",
+    "price": "PHP5,990.00",
+    "image": "images/bestseller/product2.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": true,
+    "newArrival": true,
+    "staffPick": false
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  },
+  {
+    "code": "ehsc-123-C4",
+    "name": "EG Sample 3",
+    "price": "PHP2,990.00",
+    "image": "images/bestseller/product3.jpg",
+    "category": "WOMEN",
+    "weeklyBestseller": false,
+    "newArrival": true,
+    "staffPick": true
+  }
+
+]
