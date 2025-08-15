@@ -6,7 +6,7 @@ import Services from "./services";
 import Doctors from "./doctors";
 import Contact from "./contact";
 import Testimonial from "./testimonial";
-import Bestseller from "./bestseller";
+import Bestseller from "./bestSeller";
 
 const HomePage = () => {
   const [navbarHeight, setNavbarHeight] = useState(0);
@@ -62,3 +62,4 @@ const HomePage = () => {
 };
 
 export default HomePage;
+
