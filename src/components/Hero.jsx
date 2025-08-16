@@ -21,7 +21,7 @@ const Hero = () => {
             <Button className="bg-black text-white hover:bg-gray-800 px-6 py-3 text-lg">
               Book an appointment
             </Button>
-            <Button className="border border-gray-700 text-gray-700 hover:bg-gray-200 px-6 py-3 text-lg">
+            <Button className="border border-gray-700 text-gray-700 hover:bg-gray-800 px-6 py-3 text-lg">
               See product demo
             </Button>
           </div>
@@ -37,3 +37,4 @@ const Hero = () => {
 }
 
 export default Hero
+
