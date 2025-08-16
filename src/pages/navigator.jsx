@@ -10,12 +10,30 @@ const Navigator = () => {
 
   // Hide top bar after scroll
   useEffect(() => {
-    const handleScroll = () => {
-      setHideTopBar(window.scrollY > 50)
+  let lastScrollY = window.scrollY
+  let ticking = false
+
+  const updateScroll = () => {
+    if (window.scrollY > 80 && !hideTopBar) {
+      setHideTopBar(true)
+    } else if (window.scrollY < 40 && hideTopBar) {
+      setHideTopBar(false)
     }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+    ticking = false
+  }
+
+  const handleScroll = () => {
+    if (!ticking) {
+      window.requestAnimationFrame(updateScroll)
+      ticking = true
+    }
+    lastScrollY = window.scrollY
+  }
+
+  window.addEventListener("scroll", handleScroll)
+  return () => window.removeEventListener("scroll", handleScroll)
+}, [hideTopBar])
+
 
   // Smooth scroll with offset
   const scrollToSection = (id) => {
