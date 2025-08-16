@@ -42,37 +42,45 @@ const Bestsellers = () => {
   return (
     <div className="bg-white text-gray-800 py-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
-        {/* Tabs */}
-        <div className="flex justify-center gap-10 border-b border-gray-300 pb-4">
-          {tabs.map(tab => (
-            <button
-              key={tab.label}
-              onClick={() => setActiveTab(tab.label)}
-              className={`font-semibold ${
-                activeTab === tab.label
-                  ? "border-b-2 border-black text-black"
-                  : "text-gray-400"
-              }`}
-            >
-              {tab.label}
-            </button>
-          ))}
-        </div>
+      {/* Tabs */}
+<div className="flex justify-center gap-10 border-b border-gray-300 pb-4 relative">
+  {tabs.map(tab => (
+    <button
+      key={tab.label}
+      onClick={() => setActiveTab(tab.label)}
+      className="relative pb-2 font-semibold text-gray-400 hover:text-blue-700 transition"
+    >
+      {tab.label}
+      {activeTab === tab.label && (
+        <motion.div
+          layoutId="activeTab"
+          className="absolute left-0 right-0 -bottom-[1px] h-[2px] bg-blue-700"
+          transition={{ type: "spring", stiffness: 500, damping: 30 }}
+        />
+      )}
+    </button>
+  ))}
+</div>
 
-        {/* Filters */}
-        <div className="flex justify-center gap-4 py-6">
-          {filters.map(f => (
-            <button
-              key={f}
-              onClick={() => setFilter(f)}
-              className={`px-3 py-1 border border-gray-300 rounded-full font-medium ${
-                filter === f ? "bg-gray-100 text-black" : "text-gray-500"
-              }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
+{/* Filters */}
+<div className="flex justify-center gap-4 py-6">
+  {filters.map(f => (
+    <motion.button
+      key={f}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.9 }}
+      onClick={() => setFilter(f)}
+      className={`px-3 py-1 border rounded-full font-medium transition-colors ${
+        filter === f
+          ? "bg-blue-700 text-white border-blue-700"
+          : "bg-white text-gray-500 border-gray-300 hover:border-black"
+      }`}
+    >
+      {f}
+    </motion.button>
+  ))}
+</div>
+
 
         {/* Product list */}
         <div

@@ -19,17 +19,11 @@ const Hero = () => {
           </p>
           <div className="flex gap-6">
             <Button className="bg-black text-white hover:bg-gray-800 px-6 py-3 text-lg">
-              Get started
+              Book an appointment
             </Button>
             <Button className="border border-gray-700 text-gray-700 hover:bg-gray-200 px-6 py-3 text-lg">
               See product demo
             </Button>
-          </div>
-
-          {/* Decorative */}
-          <div className="mt-16 flex items-center gap-3">
-            <img src={glassesIcon} alt="Glasses" className="w-10 h-10"/>
-            <p className="text-gray-700 text-lg">No more wall of glasses.</p>
           </div>
         </div>
 
